@@ -11,7 +11,8 @@ with open(path) as f:
 
 def visualize(connections):
     # create a network object
-    net = Network(height="750px", width="100%", bgcolor="#222222", font_color="white")
+    net = Network(height="100%", width="100%",
+                  bgcolor="#222222", font_color="white")
 
     # loop through the dictionary and add nodes
     for node in connections:
