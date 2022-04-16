@@ -1,0 +1,576 @@
+{
+    "Raphael": {
+        "Valentin": {
+            "score": 0.9
+        },
+        "Rhéa": {
+            "score": 0.4
+        },
+        "Lina": {
+            "score": 0.2
+        },
+        "Alina": {
+            "score": 0.2
+        },
+        "Fabian": {
+            "score": 0.8
+        },
+        "Julia": {
+            "score": 0.8
+        },
+        "Bowin": {
+            "score": 0.7
+        },
+        "Darius": {
+            "score": 0.8
+        },
+        "Robin": {
+            "score": 0.6
+        },
+        "Matthias": {
+            "score": 0.7
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.7
+        },
+        "Rachel": {
+            "score": 0.7
+        }
+    },
+    "Valentin": {
+        "Raphael": {
+            "score": 0.9
+        },
+        "Rhéa": {
+            "score": 1.0
+        },
+        "Lina": {
+            "score": 0.6
+        },
+        "Alina": {
+            "score": 0.5
+        },
+        "Fabian": {
+            "score": 0.7
+        },
+        "Julia": {
+            "score": 0.5
+        },
+        "Bowin": {
+            "score": 0.6
+        },
+        "Darius": {
+            "score": 0.7
+        },
+        "Robin": {
+            "score": 0.6
+        },
+        "Matthias": {
+            "score": 0.8
+        },
+        "Ian": {
+            "score": 0.5
+        },
+        "Siona": {
+            "score": 0.6
+        },
+        "Rachel": {
+            "score": 0.1
+        }
+    },
+    "Rhéa": {
+        "Raphael": {
+            "score": 0.6
+        },
+        "Valentin": {
+            "score": 1.0
+        },
+        "Lina": {
+            "score": 0.4
+        },
+        "Alina": {
+            "score": 0.8
+        },
+        "Fabian": {
+            "score": 0.8
+        },
+        "Julia": {
+            "score": 0.6
+        },
+        "Bowin": {
+            "score": 0.2
+        },
+        "Darius": {
+            "score": 0.6
+        },
+        "Robin": {
+            "score": 0.5
+        },
+        "Matthias": {
+            "score": 0.7
+        },
+        "Ian": {
+            "score": 0.6
+        },
+        "Siona": {
+            "score": 0.3
+        },
+        "Rachel": {
+            "score": 0.4
+        }
+    },
+    "Lina": {
+        "Raphael": {
+            "score": 0.3
+        },
+        "Rhéa": {
+            "score": 0.4
+        },
+        "Valentin": {
+            "score": 0.5
+        },
+        "Alina": {
+            "score": 1.0
+        },
+        "Fabian": {
+            "score": 0.3
+        },
+        "Julia": {
+            "score": 0.3
+        },
+        "Bowin": {
+            "score": 0.2
+        },
+        "Darius": {
+            "score": 0.4
+        },
+        "Robin": {
+            "score": 0.4
+        },
+        "Matthias": {
+            "score": 1.0
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.2
+        },
+        "Rachel": {
+            "score": 0.1
+        }
+    },
+    "Alina": {
+        "Raphael": {
+            "score": 0.5
+        },
+        "Rhéa": {
+            "score": 0.8
+        },
+        "Lina": {
+            "score": 1.0
+        },
+        "Valentin": {
+            "score": 0.4
+        },
+        "Fabian": {
+            "score": 0.2
+        },
+        "Julia": {
+            "score": 0.3
+        },
+        "Bowin": {
+            "score": 0.2
+        },
+        "Darius": {
+            "score": 0.3
+        },
+        "Robin": {
+            "score": 0.4
+        },
+        "Matthias": {
+            "score": 0.6
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.3
+        },
+        "Rachel": {
+            "score": 0.2
+        }
+    },
+    "Fabian": {
+        "Raphael": {
+            "score": 0.8
+        },
+        "Rhéa": {
+            "score": 0.6
+        },
+        "Lina": {
+            "score": 0.3
+        },
+        "Alina": {
+            "score": 0.3
+        },
+        "Valentin": {
+            "score": 0.8
+        },
+        "Julia": {
+            "score": 0.3
+        },
+        "Bowin": {
+            "score": 0.4
+        },
+        "Darius": {
+            "score": 0.7
+        },
+        "Robin": {
+            "score": 0.5
+        },
+        "Matthias": {
+            "score": 0.6
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.7
+        },
+        "Rachel": {
+            "score": 0.2
+        }
+    },
+    "Julia": {
+        "Raphael": {
+            "score": 0.7
+        },
+        "Rhéa": {
+            "score": 0.8
+        },
+        "Lina": {
+            "score": 0.3
+        },
+        "Alina": {
+            "score": 0.3
+        },
+        "Fabian": {
+            "score": 0.4
+        },
+        "Valentin": {
+            "score": 0.5
+        },
+        "Bowin": {
+            "score": 0.3
+        },
+        "Darius": {
+            "score": 0.4
+        },
+        "Robin": {
+            "score": 0.2
+        },
+        "Matthias": {
+            "score": 0.4
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.3
+        },
+        "Rachel": {
+            "score": 0.8
+        }
+    },
+    "Bowin": {
+        "Raphael": {
+            "score": 0.7
+        },
+        "Rhéa": {
+            "score": 0.3
+        },
+        "Lina": {
+            "score": 0.5
+        },
+        "Alina": {
+            "score": 0.5
+        },
+        "Fabian": {
+            "score": 0.7
+        },
+        "Julia": {
+            "score": 0.3
+        },
+        "Valenti": {
+            "score": 0.8
+        },
+        "Darius": {
+            "score": 0.7
+        },
+        "Robin": {
+            "score": 0.5
+        },
+        "Matthias": {
+            "score": 0.5
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.8
+        },
+        "Rachel": {
+            "score": 0.3
+        }
+    },
+    "Darius": {
+        "Raphael": {
+            "score": 0.7
+        },
+        "Rhéa": {
+            "score": 0.3
+        },
+        "Lina": {
+            "score": 0.4
+        },
+        "Alina": {
+            "score": 0.3
+        },
+        "Fabian": {
+            "score": 0.7
+        },
+        "Julia": {
+            "score": 0.4
+        },
+        "Bowin": {
+            "score": 0.5
+        },
+        "Valentin": {
+            "score": 0.7
+        },
+        "Robin": {
+            "score": 0.6
+        },
+        "Matthias": {
+            "score": 0.7
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.7
+        },
+        "Rachel": {
+            "score": 0.4
+        }
+    },
+    "Robin": {
+        "Raphael": {
+            "score": 0.6
+        },
+        "Rhéa": {
+            "score": 0.7
+        },
+        "Lina": {
+            "score": 0.6
+        },
+        "Alina": {
+            "score": 0.7
+        },
+        "Fabian": {
+            "score": 0.6
+        },
+        "Julia": {
+            "score": 0.5
+        },
+        "Bowin": {
+            "score": 0.6
+        },
+        "Darius": {
+            "score": 0.7
+        },
+        "Valentin": {
+            "score": 0.7
+        },
+        "Matthias": {
+            "score": 0.8
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.4
+        },
+        "Rachel": {
+            "score": 0.3
+        }
+    },
+    "Matthias": {
+        "Raphael": {
+            "score": 0.7
+        },
+        "Rhéa": {
+            "score": 0.6
+        },
+        "Lina": {
+            "score": 1.0
+        },
+        "Alina": {
+            "score": 0.7
+        },
+        "Fabian": {
+            "score": 0.7
+        },
+        "Julia": {
+            "score": 0.3
+        },
+        "Bowin": {
+            "score": 0.4
+        },
+        "Darius": {
+            "score": 0.6
+        },
+        "Robin": {
+            "score": 0.7
+        },
+        "Valentin": {
+            "score": 0.7
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.3
+        },
+        "Rachel": {
+            "score": 0.2
+        }
+    },
+    "Ian": {
+        "Raphael": {
+            "score": 0.0
+        },
+        "Rhéa": {
+            "score": 0.6
+        },
+        "Lina": {
+            "score": 0.0
+        },
+        "Alina": {
+            "score": 0.0
+        },
+        "Fabian": {
+            "score": 0.0
+        },
+        "Julia": {
+            "score": 0.0
+        },
+        "Bowin": {
+            "score": 0.0
+        },
+        "Darius": {
+            "score": 0.0
+        },
+        "Robin": {
+            "score": 0.4
+        },
+        "Matthias": {
+            "score": 0.0
+        },
+        "Valentin": {
+            "score": 0.6
+        },
+        "Siona": {
+            "score": 0.0
+        },
+        "Rachel": {
+            "score": 0.0
+        }
+    },
+    "Siona": {
+        "Raphael": {
+            "score": 0.7
+        },
+        "Rhéa": {
+            "score": 0.5
+        },
+        "Lina": {
+            "score": 0.4
+        },
+        "Alina": {
+            "score": 0.4
+        },
+        "Fabian": {
+            "score": 0.8
+        },
+        "Julia": {
+            "score": 0.4
+        },
+        "Bowin": {
+            "score": 0.5
+        },
+        "Darius": {
+            "score": 0.7
+        },
+        "Robin": {
+            "score": 0.4
+        },
+        "Matthias": {
+            "score": 0.5
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Valentin": {
+            "score": 0.5
+        },
+        "Rachel": {
+            "score": 0.7
+        }
+    },
+    "Rachel": {
+        "Raphael": {
+            "score": 0.8
+        },
+        "Rhéa": {
+            "score": 0.8
+        },
+        "Lina": {
+            "score": 0.4
+        },
+        "Alina": {
+            "score": 0.4
+        },
+        "Fabian": {
+            "score": 0.5
+        },
+        "Julia": {
+            "score": 0.7
+        },
+        "Bowin": {
+            "score": 0.2
+        },
+        "Darius": {
+            "score": 0.4
+        },
+        "Robin": {
+            "score": 0.3
+        },
+        "Matthias": {
+            "score": 0.3
+        },
+        "Ian": {
+            "score": 0.0
+        },
+        "Siona": {
+            "score": 0.7
+        },
+        "Valentin": {
+            "score": 0.5
+        }
+    }
+}
