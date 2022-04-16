@@ -17,8 +17,15 @@ def visualize(connections):
     for node in connections:
         net.add_node(node, label=node)
     
+    # loop through the dictionary and add edges
+    for node, connections in connections.items():
+        for connection in connections:
+            # only add if score is greater than 0.5
+            if connections[connection]["score"] > 0.5:
+                net.add_edge(node, connection)
+
     # show the network
-    net.show("network.html")
+    net.show("index.html")
 
 
 

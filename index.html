@@ -1,0 +1,108 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 750px;
+            background-color: #222222;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"font": {"color": "white"}, "id": "Raphael", "label": "Raphael", "shape": "dot"}, {"font": {"color": "white"}, "id": "Valentin", "label": "Valentin", "shape": "dot"}, {"font": {"color": "white"}, "id": "Rh\u00c3\u00a9a", "label": "Rh\u00c3\u00a9a", "shape": "dot"}, {"font": {"color": "white"}, "id": "Lina", "label": "Lina", "shape": "dot"}, {"font": {"color": "white"}, "id": "Alina", "label": "Alina", "shape": "dot"}, {"font": {"color": "white"}, "id": "Fabian", "label": "Fabian", "shape": "dot"}, {"font": {"color": "white"}, "id": "Julia", "label": "Julia", "shape": "dot"}, {"font": {"color": "white"}, "id": "Bowin", "label": "Bowin", "shape": "dot"}, {"font": {"color": "white"}, "id": "Darius", "label": "Darius", "shape": "dot"}, {"font": {"color": "white"}, "id": "Robin", "label": "Robin", "shape": "dot"}, {"font": {"color": "white"}, "id": "Matthias", "label": "Matthias", "shape": "dot"}, {"font": {"color": "white"}, "id": "Ian", "label": "Ian", "shape": "dot"}, {"font": {"color": "white"}, "id": "Siona", "label": "Siona", "shape": "dot"}, {"font": {"color": "white"}, "id": "Rachel", "label": "Rachel", "shape": "dot"}]);
+        edges = new vis.DataSet([{"from": "Raphael", "to": "Valentin"}, {"from": "Raphael", "to": "Fabian"}, {"from": "Raphael", "to": "Julia"}, {"from": "Raphael", "to": "Bowin"}, {"from": "Raphael", "to": "Darius"}, {"from": "Raphael", "to": "Robin"}, {"from": "Raphael", "to": "Matthias"}, {"from": "Raphael", "to": "Siona"}, {"from": "Raphael", "to": "Rachel"}, {"from": "Valentin", "to": "Rh\u00c3\u00a9a"}, {"from": "Valentin", "to": "Lina"}, {"from": "Valentin", "to": "Fabian"}, {"from": "Valentin", "to": "Bowin"}, {"from": "Valentin", "to": "Darius"}, {"from": "Valentin", "to": "Robin"}, {"from": "Valentin", "to": "Matthias"}, {"from": "Valentin", "to": "Siona"}, {"from": "Rh\u00c3\u00a9a", "to": "Raphael"}, {"from": "Rh\u00c3\u00a9a", "to": "Alina"}, {"from": "Rh\u00c3\u00a9a", "to": "Fabian"}, {"from": "Rh\u00c3\u00a9a", "to": "Julia"}, {"from": "Rh\u00c3\u00a9a", "to": "Darius"}, {"from": "Rh\u00c3\u00a9a", "to": "Matthias"}, {"from": "Rh\u00c3\u00a9a", "to": "Ian"}, {"from": "Lina", "to": "Alina"}, {"from": "Lina", "to": "Matthias"}, {"from": "Alina", "to": "Matthias"}, {"from": "Fabian", "to": "Darius"}, {"from": "Fabian", "to": "Siona"}, {"from": "Julia", "to": "Rachel"}, {"from": "Bowin", "to": "Fabian"}, {"from": "Bowin", "to": "Darius"}, {"from": "Bowin", "to": "Siona"}, {"from": "Darius", "to": "Robin"}, {"from": "Darius", "to": "Matthias"}, {"from": "Darius", "to": "Siona"}, {"from": "Robin", "to": "Rh\u00c3\u00a9a"}, {"from": "Robin", "to": "Lina"}, {"from": "Robin", "to": "Alina"}, {"from": "Robin", "to": "Fabian"}, {"from": "Robin", "to": "Bowin"}, {"from": "Robin", "to": "Matthias"}, {"from": "Matthias", "to": "Fabian"}, {"from": "Ian", "to": "Valentin"}, {"from": "Siona", "to": "Rachel"}, {"from": "Rachel", "to": "Rh\u00c3\u00a9a"}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
