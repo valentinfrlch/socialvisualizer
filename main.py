@@ -1,5 +1,4 @@
 # draw a network graph from data from a json file
-
 import json
 from pyvis.network import Network
 
