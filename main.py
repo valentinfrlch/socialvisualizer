@@ -26,6 +26,9 @@ def visualize(connections):
                 net.add_edge(node, connection)
 
     # show the network
+    net.show_buttons()
+
+
     net.show("index.html")
 
 
